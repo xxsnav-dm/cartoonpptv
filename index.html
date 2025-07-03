@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pp视频动漫官网入口 - 海量高清动漫，随时随地观看</title>
+  <meta name="keywords" content="PP视频动漫, 动漫在线观看, 高清动漫, 动漫资源">
+  <meta name="description" content="PP视频动漫频道提供海量高清动漫资源，涵盖经典与热门新番。支持多设备播放，高清画质，个性化推荐，离线下载，随时随地享受动漫乐趣。">
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = { darkMode: `class` }
+  </script>
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./ico.png">
+  <link rel="manifest" href="site.webmanifest">
+  <script>
+    // 自定义Tailwind配置
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    primary: '#E50914', // 红色主色调
+                    secondary: '#FF6B6B', // 浅红色辅助色
+                    neutral: {
+                        100: '#F8F9FA',
+                        200: '#E9ECEF',
+                        700: '#343A40',
+                        800: '#212529',
+                        900: '#121212'
+                    }
+                },
+                fontFamily: {
+                    inter: ['Inter', 'system-ui', 'sans-serif'],
+                },
+            }
+        }
+    }
+  </script>
+  <style type="text/tailwindcss"> @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .hover-scale {
+                transition: transform 0.3s ease;
+            }
+            .hover-scale:hover {
+                transform: scale(1.03);
+            }
+            .feature-card {
+                @apply bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+            }
+            .resource-card {
+                @apply bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
+            }
+            .fade-in {
+                opacity: 0;
+                transform: translateY(20px);
+                animation: fadeIn 0.8s ease forwards;
+            }
+            @keyframes fadeIn {
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen font-inter bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+  <div class="container mx-auto px-4 py-8 max-w-7xl">
+    <!-- 导航栏 -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-sm transition-all duration-300" id="navbar">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="#" class="flex-shrink-0 flex items-center">
+              <span class="text-primary font-bold text-xl">pp视频动漫</span>
+            </a>
+            <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+              <a href="#about" class="border-b-2 border-primary px-1 pt-1 text-sm font-medium text-primary">网站介绍</a>
+              <a href="#features" class="border-transparent hover:border-primary px-1 pt-1 text-sm font-medium text-gray-500 dark:text-gray-400 hover:text-primary">功能特点</a>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <button class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors" id="themeToggle">
+              <i class="fas fa-moon-o text-gray-500 dark:text-yellow-400"></i>
+            </button>
+            <button class="ml-4 block sm:hidden p-2 rounded-md text-gray-500 dark:text-gray-400 hover:text-primary hover:bg-gray-100 dark:hover:bg-gray-700" id="mobile-menu-button">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- 移动端菜单 -->
+      <div class="sm:hidden hidden" id="mobile-menu">
+        <div class="pt-2 pb-3 space-y-1 px-4">
+          <a href="#about" class="bg-primary/5 border-l-4 border-primary text-primary block pl-3 pr-4 py-2 text-base font-medium">网站介绍</a>
+          <a href="#features" class="border-l-4 border-transparent hover:border-primary hover:bg-primary/5 text-gray-600 dark:text-gray-300 hover:text-primary block pl-3 pr-4 py-2 text-base font-medium">功能特点</a>
+        </div>
+      </div>
+    </nav>
+    <header class="relative bg-gradient-to-r from-primary to-secondary text-white py-16 md:py-24 pt-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center fade-in">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4 text-shadow">pp视频动漫</h1>
+          <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90">海量高清动漫，随时随地观看</p>
+          <div class="mt-8 flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+            <a class="bg-white text-primary hover:bg-gray-100 hover:scale-105 transition-transform font-medium py-3 px-6 rounded-lg shadow-lg" href="https://www.xxsnav.com/sites/15622.html" target="_blank">
+              <i class="fas fa-external-link-alt mr-2"></i>访问官网 </a>
+            <a class="bg-white text-primary hover:bg-gray-100 hover:scale-105 transition-transform font-medium py-3 px-6 rounded-lg shadow-lg" href="https://wangpanziyuan.pages.dev/" target="_blank" content="nofollow">
+              <i class="fas fa-external-link-alt mr-2"></i>电子书/电影/音乐/漫画/游戏下载 </a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-0 bg-black opacity-10"></div>
+    </header>
+    <!-- 增加隔离空间 -->
+    <div class="h-5 md:h-10"></div>
+    <!-- 网站介绍部分 -->
+    <section id="about" class="mb-16 fade-in" style="animation-delay: 0.4s">
+      <h2 class="text-2xl font-bold mb-8">网站介绍</h2>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg">
+        <div>
+          <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">PP视频动漫频道是PP视频旗下的重要组成部分，专注于为用户提供丰富多样的动漫资源。作为国内知名的视频平台，PP视频动漫频道整合了海量的免费动漫视频资源，涵盖经典动漫、热门新番、动画电影等多种类型。用户可以在这里找到从经典作品到最新热门番剧的各类内容，满足不同年龄段和口味的动漫爱好者的需求。此外，PP视频动漫频道还提供高清画质的观看体验，支持多设备播放，无论是通过PC网页端、手机客户端还是平板电脑，用户都能随时随地享受精彩的动漫内容。其界面设计简洁，操作便捷，为用户提供了良好的观影体验。</p>
+        </div>
+      </div>
+    </section>
+    <!-- 功能特点部分 -->
+    <section id="features" class="mb-16 fade-in" style="animation-delay: 0.6s">
+      <h2 class="text-2xl font-bold mb-8">功能特点</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="feature-card">
+          <h3 class="text-xl font-semibold mb-4">海量动漫资源</h3>
+          <p class="text-gray-600 dark:text-gray-300">PP视频动漫频道拥有丰富的动漫资源，涵盖了各种类型的动画作品，包括经典动漫、热门新番、动画电影等。用户可以轻松找到自己喜欢的动漫作品，无论是经典的《火影忍者》《海贼王》，还是最新的热门番剧，都能在这里找到。此外，PP视频还不断更新内容，确保用户能够第一时间观看到最新的动漫作品。</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="text-xl font-semibold mb-4">高清画质与多设备支持</h3>
+          <p class="text-gray-600 dark:text-gray-300">PP视频动漫频道提供高清画质的观看体验，让用户能够享受更清晰、更流畅的观影效果。同时，该平台支持多种设备播放，用户可以通过PC网页端、手机客户端、平板电脑等多种设备随时随地观看动漫。这种多设备支持功能为用户提供了极大的便利，无论是在家中还是在旅途中，都能轻松享受动漫的乐趣。</p>
+        </div>
+        <div class="feature-card">
+          <h3 class="text-xl font-semibold mb-4">个性化推荐与便捷功能</h3>
+          <p class="text-gray-600 dark:text-gray-300">PP视频动漫频道具备个性化的推荐系统，能够根据用户的观看历史和喜好，精准推荐符合用户兴趣的动漫作品。此外，平台还提供了一些便捷功能，如观看记录同步、离线下载等。用户可以在不同设备上同步观看记录，方便下次继续观看。离线下载功能则允许用户将动漫下载到本地，即使在没有网络的情况下也能观看。</p>
+        </div>
+      </div>
+    </section>
+    <!-- 页脚 -->
+    <footer class="bg-gray-100 dark:bg-gray-800 py-12 rounded-xl">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="flex items-center justify-center mb-6">
+          <span class="text-primary font-bold text-xl">pp视频动漫</span>
+        </div>
+        <p class="text-gray-600 dark:text-gray-400 text-sm"> &copy; 2025 pp视频动漫. 保留所有权利. </p>
+      </div>
+    </footer>
+  </div>
+  <script>
+    // 导航栏滚动效果
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('shadow-md');
+            navbar.classList.remove('shadow-sm');
+        } else {
+            navbar.classList.remove('shadow-md');
+            navbar.classList.add('shadow-sm');
+        }
+    });
+    
+    // 移动端菜单切换
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    });
+    
+    // 暗色模式切换
+    document.getElementById('themeToggle').addEventListener('click', function() {
+        document.documentElement.classList.toggle('dark');
+        
+        // 切换图标
+        const icon = this.querySelector('i');
+        if (document.documentElement.classList.contains('dark')) {
+            icon.classList.remove('fa-moon-o');
+            icon.classList.add('fa-sun-o');
+        } else {
+            icon.classList.remove('fa-sun-o');
+            icon.classList.add('fa-moon-o');
+        }
+    });
+    
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+                
+                // 关闭移动端菜单
+                document.getElementById('mobile-menu').classList.add('hidden');
+            }
+        });
+    });
+    
+    // 元素进入视口时的淡入效果
+    const fadeElements = document.querySelectorAll('.fade-in');
+    
+    const fadeInObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animationPlayState = 'running';
+                fadeInObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    fadeElements.forEach(element => {
+        fadeInObserver.observe(element);
+    });
+  </script>
+</body>
+</html>
