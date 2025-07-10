@@ -3,7 +3,7 @@ PP视频动漫频道是PP视频旗下的重要组成部分，专注于为用户�
 
 
 <p><strong>一键访问：</strong><a href="https://www.xxsnav.com/sites/15622.html" target="_blank" ><strong>pp视频动漫最新网址</strong></a></p>
-<p><strong>一键访问：</strong><a href="https://www.xxsnav.com/favorites/dongmanerciyuan" target="_blank" ><strong>动漫二次元资源</strong></a></p>
+<p><strong>一键访问：</strong><a href="https://dongmandaohang.sodanav.com" target="_blank" ><strong>动漫网站大全</strong></a></p>
 <p><strong>一键访问：</strong><a href="https://wangpanziyuan.pages.dev/" target="_blank" ><strong>电子书/电影/音乐/漫画/游戏下载</strong></a></p>
 
 ### 功能特点
